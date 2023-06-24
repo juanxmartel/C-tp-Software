@@ -1,0 +1,261 @@
+# depslib dependency file v1.0
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\main.c
+	<stdio.h>
+	<stdlib.h>
+	"src/controllers/base/base.h"
+	"src/services/empresa/empresa.h"
+	"src/services/auth/auth.h"
+	"src/utils/avisos/avisos.h"
+	<string.h>
+
+1685560016 c:\users\jkend\documents\proyecto primer cuatrimestre\src\controllers\base\base.h
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\controllers\base\base.c
+	"base.h"
+	"../../config/mensajes.h"
+	"../empleados/empleados.h"
+	"../pagos/pagos.h"
+	"../configuracion/configuracion.h"
+	"../empresa/empresa.h"
+	"../../services/menu/menu.h"
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\controllers\empleados\empleados.h
+
+1687209590 c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\menu\menu.h
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\controllers\empleados\empleados.c
+	"empleados.h"
+	"../../config/mensajes.h"
+	"../../services/empleados/empleados.h"
+	"../../services/menu/menu.h"
+	"../../utils/number/number.h"
+	"../../config/commands.h"
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\empleados\empleados.h
+	"../direcciones/direcciones.h"
+	"../pilas/pila.h"
+	<stdbool.h>
+	"time.h"
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\direcciones\direcciones.h
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\controllers\pagos\pagos.c
+	"pagos.h"
+	"../../config/mensajes.h"
+	"../../services/menu/menu.h"
+	"../../services/pagos/pagos.h"
+	"../../services/empleados/empleados.h"
+	"../../config/commands.h"
+	"../empleados/empleados.h"
+
+1685572843 c:\users\jkend\documents\proyecto primer cuatrimestre\src\controllers\pagos\pagos.h
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\archivos\archivos.c
+	<stdio.h>
+	<stdlib.h>
+	"stdbool.h"
+
+1686361569 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\direcciones\direcciones.c
+	<stdio.h>
+	<stdlib.h>
+	"stdbool.h"
+	"direcciones.h"
+	"../../utils/number/number.h"
+	"../../utils/string/string.h"
+	"../../config/mensajes.h"
+
+1686355017 c:\users\jkend\documents\proyecto primer cuatrimestre\src\utils\utils.h
+	"stdbool.h"
+	"time.h"
+
+1687216012 c:\users\jkend\documents\proyecto primer cuatrimestre\src\config\mensajes.h
+
+1687216407 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\empleados\empleados.c
+	"empleados.h"
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"../pagos/pagos.h"
+	"../pilas/pila.h"
+	"../../utils/fecha/fecha.h"
+	"../../utils/number/number.h"
+	"../../config/pathFiles.h"
+	"../direcciones/direcciones.h"
+	"../../config/mensajes.h"
+	"../archivos/archivos.h"
+	"../salarios/salarios.h"
+
+1687215899 c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\pagos\pagos.h
+	"stdbool.h"
+	"time.h"
+
+1686336155 c:\users\jkend\documents\proyecto primer cuatrimestre\src\config\pathfiles.h
+
+1685560016 c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\archivos\archivos.h
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\menu\menu.c
+	"menu.h"
+	<stdio.h>
+	<conio.h>
+	"../../config/teclas.h"
+	"../../config/commands.h"
+
+1687216243 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\pagos\pagos.c
+	"pagos.h"
+	"stdio.h"
+	"../../utils/number/number.h"
+	"../../utils/string/string.h"
+	"../../utils/fecha/fecha.h"
+	"../archivos/archivos.h"
+	"../../config/mensajes.h"
+	"../../config/pathFiles.h"
+	"../empleados/empleados.h"
+	"../empresa/empresa.h"
+	"../../controllers/empleados/empleados.h"
+
+1686355000 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\utils\utils.c
+	"utils.h"
+	"string.h"
+	"stdio.h"
+	"stdlib.h"
+	"time.h"
+	"stdbool.h"
+	"ctype.h"
+	"../config/mensajes.h"
+	"../services/configuracion/configuracion.h"
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\controllers\configuracion\configuracion.h
+	"../../services/menu_horizontal/menu_horizontal.h"
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\controllers\configuracion\configuracion.c
+	"../../config/mensajes.h"
+	"../../services/empleados/empleados.h"
+	"../../services/menu/menu.h"
+	"../../services/configuracion/configuracion.h"
+	"../../services/menu_horizontal/menu_horizontal.h"
+	"./configuracion.h"
+	"../../utils/array/array.h"
+	"string.h"
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\configuracion\configuracion.h
+	"stdbool.h"
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\configuracion\configuracion.c
+	<stdio.h>
+	<stdlib.h>
+	"stdbool.h"
+	"configuracion.h"
+	"../archivos/archivos.h"
+	"../../config/mensajes.h"
+	"../../config/pathFiles.h"
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\empresa\empresa.c
+	<stdio.h>
+	<stdlib.h>
+	"stdbool.h"
+	"empresa.h"
+	"../archivos/archivos.h"
+	"../../utils/string/string.h"
+	"../../utils/number/number.h"
+	"../../utils/avisos/avisos.h"
+	"../../config/mensajes.h"
+	"../../config/pathFiles.h"
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\empresa\empresa.h
+	"stdbool.h"
+
+1686337393 c:\users\jkend\documents\proyecto primer cuatrimestre\src\controllers\empresa\empresa.h
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\controllers\empresa\empresa.c
+	"empresa.h"
+	"../../config/mensajes.h"
+	"../../services/menu/menu.h"
+	"../../services/empresa/empresa.h"
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\menu_horizontal\menu_horizontal.h
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\config\teclas.h
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\menu_horizontal\menu_horizontal.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menu_horizontal.h"
+	"../../config/teclas.h"
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\utils\array\array.h
+
+1686357433 c:\users\jkend\documents\proyecto primer cuatrimestre\src\utils\number\number.h
+
+1686357486 c:\users\jkend\documents\proyecto primer cuatrimestre\src\utils\string\string.h
+	"stdbool.h"
+
+1686357384 c:\users\jkend\documents\proyecto primer cuatrimestre\src\utils\fecha\fecha.h
+	"time.h"
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\utils\array\array.c
+	"array.h"
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\utils\number\number.c
+	"number.h"
+	<stdlib.h>
+	<stdio.h>
+	"../../config/mensajes.h"
+	"../../services/configuracion/configuracion.h"
+
+1687216260 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\utils\fecha\fecha.c
+	"fecha.h"
+	<stdio.h>
+	<stdlib.h>
+	"stdbool.h"
+	"time.h"
+	"../../services/configuracion/configuracion.h"
+	"../../config/mensajes.h"
+
+1686357488 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\utils\string\string.c
+	"string.h"
+	<stdlib.h>
+	<stdio.h>
+	"stdbool.h"
+	"../../config/mensajes.h"
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\auth\auth.h
+	<stdbool.h>
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\auth\auth.c
+	"auth.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<stdbool.h>
+	"../../utils/string/string.h"
+	"../empresa/empresa.h"
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\utils\avisos\avisos.h
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\pilas\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\config\commands.h
+
+1687208494 c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\salarios\salarios.h
+	"../empleados/empleados.h"
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\pilas\pila.c
+	"pila.h"
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\services\salarios\salarios.c
+	"salarios.h"
+	"../../utils/number/number.h"
+	"../empleados/empleados.h"
+	"../../utils/fecha/fecha.h"
+	"../configuracion/configuracion.h"
+	"../../config/mensajes.h"
+	<stdbool.h>
+	<time.h>
+
+1687208494 source:c:\users\jkend\documents\proyecto primer cuatrimestre\src\utils\avisos\avisos.c
+	"avisos.h"
+

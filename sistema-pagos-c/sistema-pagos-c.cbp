@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sistema-pagos-c" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/sistema-pagos-c" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/sistema-pagos-c" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/config/commands.h" />
+		<Unit filename="src/config/mensajes.h" />
+		<Unit filename="src/config/mensajes/mensajes.h" />
+		<Unit filename="src/config/pathFiles.h" />
+		<Unit filename="src/config/pathFiles/pathFiles.h" />
+		<Unit filename="src/config/teclas.h" />
+		<Unit filename="src/controllers/base/base.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/controllers/base/base.h" />
+		<Unit filename="src/controllers/configuracion/configuracion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/controllers/configuracion/configuracion.h" />
+		<Unit filename="src/controllers/empleados/empleados.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/controllers/empleados/empleados.h" />
+		<Unit filename="src/controllers/empresa/empresa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/controllers/empresa/empresa.h" />
+		<Unit filename="src/controllers/pagos/pagos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/controllers/pagos/pagos.h" />
+		<Unit filename="src/services/archivos/archivos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/services/archivos/archivos.h" />
+		<Unit filename="src/services/auth/auth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/services/auth/auth.h" />
+		<Unit filename="src/services/configuracion/configuracion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/services/configuracion/configuracion.h" />
+		<Unit filename="src/services/direcciones/direcciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/services/direcciones/direcciones.h" />
+		<Unit filename="src/services/empleados/empleados.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/services/empleados/empleados.h" />
+		<Unit filename="src/services/empresa/empresa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/services/empresa/empresa.h" />
+		<Unit filename="src/services/menu/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/services/menu/menu.h" />
+		<Unit filename="src/services/menu_horizontal/menu_horizontal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/services/menu_horizontal/menu_horizontal.h" />
+		<Unit filename="src/services/pagos/pagos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/services/pagos/pagos.h" />
+		<Unit filename="src/services/pilas/pila.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/services/pilas/pila.h" />
+		<Unit filename="src/services/salarios/salarios.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/services/salarios/salarios.h" />
+		<Unit filename="src/utils/array/array.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/utils/array/array.h" />
+		<Unit filename="src/utils/avisos/avisos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/utils/avisos/avisos.h" />
+		<Unit filename="src/utils/fecha/fecha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/utils/fecha/fecha.h" />
+		<Unit filename="src/utils/number/number.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/utils/number/number.h" />
+		<Unit filename="src/utils/string/string.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/utils/string/string.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
